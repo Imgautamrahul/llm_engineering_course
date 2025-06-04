@@ -6,7 +6,7 @@ Welcome to my personal repository where I’m actively learning and implementing
 
  🚀 Repository Structure
 
- 📁 `rag_expert_insurance/`
+ 📁 `section5/`
 
 A simple but complete implementation of a **brute-force RAG system**:
 
@@ -15,12 +15,12 @@ A simple but complete implementation of a **brute-force RAG system**:
 * Gradio UI for interactive Q\&A
 * Grounded on local `.txt` files
 
- 📁 `cpp_generator_llama/`
+ 📁 `section4/`
 
 * Converts **Python code to optimized C++** using a deployed HuggingFace endpoint
 * Demonstrates stream-based interaction via `Gradio`
 
- 📁 `chatbots/`
+ 📁 `section2/`
 
 * Custom chatbots using `Gradio`, `LLaMA`, and prompt engineering
 * Includes examples like:

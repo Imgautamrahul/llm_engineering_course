@@ -13,7 +13,7 @@ def stream_from_ollama(prompt, model="llama3.2"):
         "stream": True
     }
 
-    print("\n🤖 Generating...\n")
+    print("\n Generating...\n")
     with requests.post(url, headers=headers, data=json.dumps(data), stream=True) as response:
         for line in response.iter_lines():
             if line:

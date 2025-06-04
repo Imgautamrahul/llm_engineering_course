@@ -71,7 +71,7 @@ demo = gr.Interface(
     fn=rag_query,
     inputs=gr.Textbox(label="Ask your insurance-related question"),
     outputs=gr.Textbox(label="Answer"),
-    title="💼 Expert Knowledge Worker for Insurellm",
+    title=" Expert Knowledge Worker for Insurellm",
     description="Ask questions about policies, claims, or any internal insurance content."
 )
 

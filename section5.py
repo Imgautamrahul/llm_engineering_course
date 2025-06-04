@@ -19,7 +19,7 @@ model = AutoModelForCausalLM.from_pretrained(
 embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
-doc_folder = "rahul_resume.docs"  
+doc_folder = "rahul_tax.docs"  
 texts, ids = [], []
 
 for filename in os.listdir(doc_folder):

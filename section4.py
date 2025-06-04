@@ -46,7 +46,7 @@ demo = gr.Interface(
     fn=generate_cpp_code,
     inputs=gr.Textbox(lines=15, placeholder="Paste your Python code here..."),
     outputs=gr.Textbox(label="Generated C++ Code"),
-    title="🚀 Python to C++ Code Generator (LLaMA 3)",
+    title=" Python to C++ Code Generator (LLaMA 3)",
     description="Using Meta's LLaMA-3 model hosted on HuggingFace to convert Python to high-performance C++"
 )
 

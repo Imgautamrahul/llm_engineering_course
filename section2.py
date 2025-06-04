@@ -35,7 +35,7 @@ def chat_with_llama(message, history_dict):
 
 #
 with gr.Blocks() as demo:
-    gr.Markdown("## 🛍️ Clothing Store AI Assistant (Powered by LLaMA 3.2)")
+    gr.Markdown("## Clothing Store AI Assistant (Powered by LLaMA 3.2)")
 
     chatbot = gr.Chatbot(label="Your Assistant", type='messages')
     msg = gr.Textbox(placeholder="Ask me anything about our clothing store...", show_label=False)
